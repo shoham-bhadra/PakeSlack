@@ -133,7 +133,7 @@ jobs:
       - name: Upload archive
         uses: actions/upload-artifact@v3
         with:
-          name: output-${{ inputs.platform }}.zip
+          name: pakeSlack.zip
           path: node_modules/pake-cli/output/pakeSlack.zip
           retention-days: 3
 
