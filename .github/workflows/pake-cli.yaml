@@ -134,7 +134,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: pakeSlack.zip
-          path: node_modules/pake-cli/output/pakeSlack.zip
+          path: /pakeSlack.zip
           retention-days: 3
 
       - name: Rust cache store
