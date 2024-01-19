@@ -114,6 +114,7 @@ jobs:
         run: |
           npm install shelljs
           npm install axios
+          npm ci
 
       - name: Build with pake-cli
         run: |
