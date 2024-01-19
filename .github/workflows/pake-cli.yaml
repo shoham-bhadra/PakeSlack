@@ -133,8 +133,8 @@ jobs:
       - name: Upload archive
         uses: actions/upload-artifact@v3
         with:
-          name: pakeSlack.zip
-          path: /pakeSlack.zip
+          name: pakeSlack
+          path: ${{ github.workspace }}/output/*.zip
           retention-days: 3
 
       - name: Rust cache store
